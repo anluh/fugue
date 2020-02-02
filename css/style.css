@@ -112,6 +112,7 @@ a:hover {
   font-weight: normal; }
 
 .advantages {
+  padding: 0 20px;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
@@ -162,6 +163,7 @@ a:hover {
   align-self: center; }
 
 .section-item .body {
+  padding: 0 20px;
   text-align: center;
   -webkit-box-flex: 3;
   -webkit-flex: 3;
@@ -437,7 +439,9 @@ label.input__label.input__label--nao {
 /*---------------------collapled menu--------------------*/
 .cd-stretchy-nav {
   right: 1% !important;
-  top: 6% !important; }
+  top: 6% !important;
+  z-index: 999;
+}
 
 .cd-stretchy-nav span {
   color: #75736e; }
@@ -616,7 +620,7 @@ label.input__label.input__label--nao {
   .f-item img {
     margin-left: 10px;
     width: 185px; } }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
   .section-item .text {
     font-size: 10px !important; }
 
